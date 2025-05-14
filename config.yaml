@@ -1,0 +1,9 @@
+detection:
+  ear_threshold: 0.22  # Eye Aspect Ratio threshold below which eye is considered closed
+  mar_threshold: 0.60  # Mouth Aspect Ratio threshold for yawning
+  consecutive_frames: 20  # Frames required to trigger driver fatigue alert
+  camera_id: 0
+
+alarm:
+  sound_enabled: true
+  visual_flash: true
